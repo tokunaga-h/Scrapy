@@ -3,9 +3,10 @@
     "service": "scrapy",
     "shutdownAction": "stopCompose",
     "workspaceFolder": "/opt/scrapy",
-    "remoteUser": "tokunaga",
     "customizations": {"vscode": { "extensions": [
         "GitHub.copilot",
-        "mhutchie.git-graph"
+        "mhutchie.git-graph",
+        "ms-python.python",
+        "asciidoctor.asciidoctor-vscode"
     ]}}
 }

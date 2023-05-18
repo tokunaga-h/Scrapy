@@ -1,0 +1,17 @@
+= Scrapy Sample
+:source-highlighter: highlight.js
+
+== 概要
+
+J-leagueデータサイトから日程・結果データを取得。 +
+実行時オプション [-a season=yyyy] で年度を指定。 +
+
+
+== コマンド実行例
+
+[source,shellsession]
+.2022年度の結果をresult.jsonに出力
+----
+# cd /opt/scrapy/jleague
+# scrapy crawl competition -a season=2022 -o results.json --nolog
+----

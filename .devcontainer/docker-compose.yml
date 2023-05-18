@@ -1,10 +1,7 @@
 version: "3.9"
 services:
     scrapy:
-        build:
-            context: .
-            dockerfile: Dockerfile
-        image: scrapy
+        image: continuumio/anaconda3
         container_name: jl_scrapy
         ports:
             - 18888:8888
