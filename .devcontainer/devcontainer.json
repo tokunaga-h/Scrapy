@@ -1,0 +1,11 @@
+{
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "scrapy",
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/opt/scrapy",
+    "remoteUser": "tokunaga",
+    "customizations": {"vscode": { "extensions": [
+        "GitHub.copilot",
+        "mhutchie.git-graph"
+    ]}}
+}
