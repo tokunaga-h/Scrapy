@@ -8,9 +8,3 @@ services:
         volumes:
             - "../:/opt/scrapy"
         tty: true
-        external_links:
-            - "gitlab:gitlab.local"
-networks:
-    default:
-        external: true
-        name: dev_network
